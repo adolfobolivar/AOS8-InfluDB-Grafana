@@ -1,1 +1,1 @@
-# AOS8-InfluDB-Grafana
+# AOS8-InfluxDB-Grafana
