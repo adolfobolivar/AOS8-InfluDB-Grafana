@@ -1,8 +1,8 @@
-# Aruba Mobility Master/Mobility Constroller - InfluxDB - Grafana
+# Aruba MM/MC AOS 8.3 - InfluxDB - Grafana
 
 Python Code Demo to create a wifi dashboard in GRAFANA from ARUBA Mobility Master and Mobility controller infrastructure.
 
-# AOS8 - InfluxDB - Grafana
+# Infrastructure
 
 The infraestruture needed is:
 
@@ -12,7 +12,7 @@ The infraestruture needed is:
 
 <img align="left" src="https://github.com/adolfobolivar/AOS8-InfluDB-Grafana/blob/master/Physical%20Diagram.png">
 
-# Scripts
+# Database
 
 
 <img align="left" src="https://github.com/adolfobolivar/AOS8-InfluDB-Grafana/blob/master/Logical%20Diagram.png">
