@@ -20,6 +20,7 @@ The infraestruture needed is:
 
 Python script creates the database "example" and stores the data in multiple measurements:  
 
+```
 ubuntu@ubuntu:~$ influx
 Connected to http://localhost:8086 version 1.6.3
 InfluxDB shell version: 1.6.3
@@ -37,6 +38,7 @@ cpuload
 type_users
 > 
 
+```
 # Dashboard generated in Grafana
 
 I installed the Clock Panel and Gauge Panel Plugin for Grafana. Here is an example of the dashboard generated:
