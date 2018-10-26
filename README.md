@@ -12,13 +12,34 @@ The infraestruture needed is:
 
 <img align="left" src="https://github.com/adolfobolivar/AOS8-InfluDB-Grafana/blob/master/Physical%20Diagram.png">
 
-# Database
-
+# Logical Design
 
 <img align="left" src="https://github.com/adolfobolivar/AOS8-InfluDB-Grafana/blob/master/Logical%20Diagram.png">
 
+# InfluxDB 
+
+Python script creates the database "example" and stores the data in multiple measurements:  
+
+ubuntu@ubuntu:~$ influx
+Connected to http://localhost:8086 version 1.6.3
+InfluxDB shell version: 1.6.3
+> use example
+Using database example
+> show measurements
+name: measurements
+name
+----
+Bandwidth_Consumed_CRCs
+Number_Associations_APs
+Number_Clients_SSID
+Status_of_APs
+cpuload
+type_users
+> 
+
 # Dashboard generated in Grafana
 
-<img align="left" src="https://github.com/adolfobolivar/AOS8-InfluDB-Grafana/blob/master/Dahsboard.png">
-----------
-Tags: Aruba Networks, Mobility Master, Mobility Controller, API, InfluxDB, Grafana, Analytics, Dashboard, reports
+I installed the Clock Panel and Gauge Panel Plugin for Grafana. Here is an example of the dashboard generated:
+
+<img align="left" src="https://github.com/adolfobolivar/AOS8-InfluDB-Grafana/blob/master/Dashboard.png">
+
