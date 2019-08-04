@@ -9,9 +9,9 @@ import ap_associations
 import ap_statistics
 import time
 
-username='admin'
-password='Aruba123!'
-vMM_aosip='172.16.0.55'
+username='jinlin.zhou@hpe.com'
+password='Newp0int'
+vMM_aosip='10.0.50.10'
 
 while True:
     #Get the token to access vMM information  -- via API
